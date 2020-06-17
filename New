@@ -1,0 +1,644 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--  brand_block / /airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200/3228-14514.html   -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> </title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="autor" content="sales@putivetra.ru">
+<meta name="copyright" content="ООО Пути Ветра, кондиционирование и вентиляция" />
+
+<link href="/assets/css/reset.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/assets/css/typography.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/assets/css/forms.css" rel="stylesheet" type="text/css" media="all" />
+<link href="/assets/css/layout.css" rel="stylesheet" type="text/css" media="all" />
+
+
+
+<!--[if lt IE 9]><link href="/assets/css/ie.css" rel="stylesheet" type="text/css" media="all" /><![endif]-->
+<script type="text/javascript" src="/assets/js/jquery-1.8.1.min.js"></script>
+<script type="text/javascript" src="/assets/js/js.common.js"></script>
+<script language="javascript">
+  $(document).ready(function(){
+    $('#for-load').load('/orders/show_cart?m=35851');
+    /* $('#step-informer').load('/orders/step_informer');  */
+  });
+  function delete_cookie(cookie_name){
+    var cookie_date = new Date(); cookie_date.setTime(cookie_date.getTime() - 1);
+    document.cookie = cookie_name += "=; expires=" + cookie_date.toGMTString();
+  }
+  function set_cookie (name, value){
+    var cookie_string = name + "=" + escape(value); 
+        cookie_string += "; path=" + escape ('/');
+    var expires = new Date (2021, 4, 13);
+    cookie_string += "; expires=" + expires.toGMTString();
+    document.cookie = cookie_string;
+  }
+  function get_cookie(cookie_name){
+    var results = document.cookie.match('(^|;)?' + cookie_name + '=([^;]*)(;|$)');
+    if(results){return(unescape(results[2]));}else{return null;} 
+  }    
+  function set_prid1(prid){
+    var prids = get_cookie('prids'); var nois = true; var p = [];
+    if(!!prids == true){ p = prids.split('-'); var ind; 
+      for(ind = p.length - 1; ind >= 0; --ind){ if(p[ind] == prid){nois = false;}; }  
+    }; 
+    //delete_cookie('prids');
+    if(nois == true){ p.push(prid); set_cookie( 'prids', p.join('-') ); };
+  }
+  function set_prid(prid){
+    // set_cookie('prids', '');
+    var prids = get_cookie('prids'); var p1 = []; var p2 = []; 
+    if(!!prids == true){ p1 = prids.split('-'); var ind; 
+      for(ind = 0; ind < p1.length; ++ind){ if(p1[ind] !== prid){p2.push(p1[ind]);};};   
+    }; p2.push(prid); set_cookie('prids', p2.join('-')); 
+  }
+</script>
+
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="no-cache" />
+<meta http-equiv="cache-control" content="no-cache" />
+<script type="text/javascript" language="JavaScript"> document.onselectstart=function(){return false} document.oncontextmenu=function(){return false} document.onmousedown=function(){return false}</script>
+
+
+
+
+</head>
+
+ <body oncopy="return false;">
+
+<!--layout-->
+<div id="layout">
+
+  <!--header-->
+  <div id="header" class="clearfix">
+    <!--site logo-->
+    <div class="logo"><a href="/"></a></div>
+    <!--site logo end-->
+    <!--slogan-->
+    <div class="slogan">КОНДИЦИОНЕРЫ * ВЕНТИЛЯЦИЯ * VRV-VRF СИСТЕМЫ</div>
+    <!--slogan end-->
+    <!--phone-->
+    <div class="phone">8 495 647-85-11</div>
+    <!--phone end-->
+    <!--description-->
+    <div class="description"> климатическая компания <span>Официальный дилер</span> </div>
+    <!--description end-->
+    <a href="/search/paramsearch" class="search_params">параметрический поиск</a>
+    <!--cart-->
+    <div class="cart">
+      <div class="c" id="for-load">
+      </div>
+    </div>
+    <!--cart end-->
+    <!--search-->
+
+  <!--
+<div class="ya-site-form ya-site-form_inited_no" onclick="return {'bg': 'transparent', 'publicname': 'Yandex Site Search #2073142', 'target': '_blank', 'language': 'ru', 'suggest': true, 'tld': 'ru', 'site_suggest': true, 'action': 'http://www.putivetra.ru/searching.html', 'webopt': false, 'fontsize': 16, 'arrow': false, 'fg': '#000000', 'searchid': '2073142', 'logo': 'rb', 'websearch': false, 'type': 3}"><form action="http://yandex.ru/sitesearch" method="get" target="_blank"><input type="hidden" name="searchid" value="2073142" /><input type="hidden" name="l10n" value="ru" /><input type="hidden" name="reqenc" value="" /><input type="text" name="text" value="" /><input type="submit" value="Найти" /></form></div><style type="text/css">.ya-page_js_yes .ya-site-form_inited_no { display: none; }</style><script type="text/javascript">(function(w,d,c){var s=d.createElement('script'),h=d.getElementsByTagName('script')[0],e=d.documentElement;(' '+e.className+' ').indexOf(' ya-page_js_yes ')===-1&&(e.className+=' ya-page_js_yes');s.type='text/javascript';s.async=true;s.charset='utf-8';s.src=(d.location.protocol==='https:'?'https:':'http:')+'//site.yandex.net/v2.0/js/all.js';h.parentNode.insertBefore(s,h);(w[c]||(w[c]=[])).push(function(){Ya.Site.Form.init()})})(window,document,'yandex_site_callbacks');</script>
+  -->
+    <form action="/search/results">
+      <div class="search">
+        <input type="text" onfocus="if (this.value == 'введите слово или фразу для поиска...') { this.value=''; }"
+                           onblur="if (this.value == '') { this.value='введите слово или фразу для поиска...' }"
+                           value="введите слово или фразу для поиска..." name="searchphrase" />
+        <input type="image" src="/assets/images/search_btn.png" />
+      </div>
+    </form>
+    <!--search end-->
+  </div>
+  <!--header end-->
+
+  <div id="subheader">
+    <!--header navigation-->
+    <ul class="nav clearfix">
+
+      <li class="m1"><a href="/o_kompanii_puti_vetra.html">Пути Ветра</a></li>
+      <li class="m2"><a href="/katalog_oborudovania.html">Каталог климатического оборудования</a></li>
+      <li class="m3"><a href="/firmy_i_brendi.html">Производители климатического оборудования</a></li>
+      <li class="m4"><a href="/uslugi_putei_vetra.html">Услуги</a></li>
+      <li class="m5"><a href="/obzory.html">Обзоры климатического оборудования</a></li>
+      <li class="m7"><a href="/vakansii.html">Вакансии</a></li>
+      <li class="m8"><a href="/kontakty.html">Контакты</a></li>
+    </ul>
+    <!--header navigation end-->
+    <!--sitemap links-->
+    <ul class="sitemap">
+      <li><a href="/"><img src="/assets/images/ico_home.png" alt="" /></a></li>
+      <!--  <li><a href=""><img src="/assets/images/ico_sitemap.png" alt="" /></a></li>  -->
+      <li><a href="mailto:sales@putivetra.ru"><img src="/assets/images/ico_mail.png" alt="" /></a></li>
+    </ul>
+    <!--sitemap links end-->
+
+  </div>
+   <ul class="breadcrumbs clearfix">
+    <li><a href="/"><img src="/assets/images/breadcrumb_home.png" alt="" /></a></li>
+         <li><a href="/katalog_oborudovania.html">Климатическое оборудование</a></li>
+         <li><a href="/accessories.html">Аксессуары и комплектующие</a></li>
+         <li class="last"><a href="/accessories/chastotnie_preobrazovateli.html">Частотные преобразователи</a></li>
+   </ul>
+
+<div id="step-informer" align="center"></div>
+
+
+
+
+<!-- block_skin_1  |  my_skel = my  -->
+  <!--wrap-->
+  <div id="wrap" class="col3_layout col2_layout2 clearfix">
+
+    <!--content-->
+    <div class="content clearfix">
+      <div class="col_a  col_a_catalog_brandname">
+        <a href="/airone.html" class="leftcol"><img alt="Aerone_logo" class="lclogo" height="120" src="/system/brands/logo_larges/112/original/aerone_logo.jpg?1568215199" width="180" /></a>
+                <ul class="catalog">
+          <li> <a href="/airone/accessories.html">Аксессуары и комплектующие</a>            <ul>
+              <li> <a href="/airone/accessories/chastotnie_preobrazovateli.html">Частотные преобразователи</a>                <ul class="lm-series">
+                    <li>
+                      <a href="/airone/accessories/chastotnie_preobrazovateli/m4229-212-em60.html" class="false">Частотный преобразователь EM60</a>                    </li>
+                    <li>
+                      <a href="/airone/accessories/chastotnie_preobrazovateli/m3775-212-e102.html" class="false">Частотный преобразователь E102</a>                    </li>
+                    <li>
+                      <a href="/airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200.html" class="selected">Частотный преобразователь SN 200</a>                    </li>
+                </ul>
+              </li>
+              <li> <a href="/airone/accessories/electroprivodi.html">Электроприводы</a>              </li>
+            </ul>
+          </li>
+          <li> <a href="/airone/ventilyacia.html">Вентиляция</a>          </li>
+          <li> <a href="/airone/vent_avtomatika.html">Автоматика для вентиляции</a>          </li>
+          <li> <a href="/airone/uvlajniteli-vozduha.html">Увлажнители воздуха</a>          </li>
+        </ul>
+        <div style="padding:15px 20px; background-color:lightblue;">
+          <h4> Все марки </h4>
+          <p><big><a href="/accessories/chastotnie_preobrazovateli.html">Частотные преобразователи</a></big></p>
+        </div>
+      </div>
+
+
+      <div class="col_b clearfix">
+        <div class="catitem_description" style="padding-top:0px;">
+
+
+        <div class="block-page-segment clearfix">
+          <div class="block-page-left">
+
+            <h1>
+              AIRONE  <nobr>SN200MN-1R5GB-T4</nobr>
+                Частотный преобразователь            </h1>
+
+          </div>
+          <div class="block-page-right">
+          <script language="javascript">
+  $(document).ready(function(){ set_prid('14514'); });
+</script>
+
+  <div class="block-price" style="margin-top: 0px; padding-top: 0px;">
+    <span>9 947</span> руб.
+    <meta itemprop="price" content="9947">
+    <meta itemprop="priceCurrency" content="RUB">
+    
+      <div itemscope itemtype="http://schema.org/Product" style="display: none">
+      <span style="display: none" itemprop="name">SN200MN-1R5GB-T4</span>
+      <span style="display: none" itemprop="description">  </span>
+      <img style="display: none" src="http_server_name/attachments/original/missing.png" itemprop="image">
+      <div style="display: none" itemprop="offers" itemscope itemtype="http://schema.org/Offer"> 
+      <span style="display: none" itemprop="price">9947</span>
+      <span style="display: none" itemprop="priceCurrency">RUB</span>
+      
+      </div>
+      </div>         
+  </div>
+
+  <form accept-charset="UTF-8" action="/orders/add_item" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input id="product_id" name="product_id" type="hidden" value="14514" />
+    <input id="parent_product_id" name="parent_product_id" type="hidden" />
+    <input id="class_name" name="class_name" type="hidden" value="Sample" />
+    <input id="price" name="price" type="hidden" value="9947" />
+    <input id="valuta" name="valuta" type="hidden" value="RUB" />
+    <input id="site_page" name="site_page" type="hidden" value="/airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200/3228-14514.html" />
+    <big>
+      <input id="amount" name="amount" size="2" type="text" value="1" />      <input name="add_to_cart" onclick="yaCounter20865616.reachGoal('ZAKAZ'); return true;" type="submit" value=" Заказ " />
+    </big>
+</form>          </div>
+        </div>
+
+        <!--
+        <div class="block-page-segment clearfix">
+          <div class="block-page-left">
+
+             <h3> Характеристики </h3>
+             <table cellspacing="0" class="catitem_table" cellpadding="0">
+               <tr><td width="300"> Производитель </td><td width="120" align="center"> AIRONE </td>
+               </tr>
+                 <tr><td width="300">
+                     Страна 
+                   </td>
+                   <td width="120" align="center"> Россия   </td>
+                 </tr>
+                 <tr><td width="300">
+                     Мощность 
+                   </td>
+                   <td width="120" align="center"> 1,50  кВт </td>
+                 </tr>
+                 <tr><td width="300">
+                     Электропитание 
+                   </td>
+                   <td width="120" align="center"> 380 В, 3 Фазы  В </td>
+                 </tr>
+             </table>
+
+          </div>
+          <div class="block-page-right" valign="center">
+
+            <img alt="Missing" src="/attachments/original/missing.png" style="border:none; width:240px; height:200px;" />
+
+          </div>
+        </div>
+        -->
+
+
+        <div class="block-page-segment clearfix">
+  <div class="block-page-left" align="center"> 
+      Код товара: z15514-4228      <script language="javascript">
+        $(document).ready(function(){
+          $('#prod-avalbl').load('/orders/now_avalble/14514');
+        }); 
+      </script>
+      <span id="prod-avalbl" style="color:green;"></span>
+  </div>
+  <div class="block-page-right" align="center">
+      Доставка по Москве за 490 руб.
+  </div>
+</div>
+
+
+                <div class="block-page-segment clearfix">
+          <table border="0" cellspacing="0" cellpadding="0" style="margin:0px; padding:0px;">
+          <tr><td width="504" style="padding:0px;">
+
+             <h3> 
+                Характеристики AIRONE                SN200MN-1R5GB-T4             </h3>
+             
+             <table  cellspacing="0" class="catitem_table" cellpadding="0">
+               <tr><td width="310"> Производитель </td><td width="120" align="center"> AIRONE </td>
+               </tr>
+               <tr><td width="310" valign="middle" style="vertical-align:middle;">
+                      Страна
+                   </td>
+                   <td width="120" align="center">  Россия </td>
+               </tr>
+               <tr><td width="310" valign="middle" style="vertical-align:middle;">
+                      Мощность, кВт
+                   </td>
+                   <td width="120" align="center">  1,50 </td>
+               </tr>
+               <tr><td width="310" valign="middle" style="vertical-align:middle;">
+                      Электропитание, В
+                   </td>
+                   <td width="120" align="center">  380 В, 3 Фазы </td>
+               </tr>
+             </table>
+
+          </td>
+          <td width="240"  style="padding:0px; vertical-align:middle;" valign="middle" align="center">
+
+            <img alt="Missing" src="/attachments/original/missing.png" style="border:none; width:240px; height:200px;" />
+
+          </td></tr>
+          </table>
+        </div>
+
+
+        <div class="block-page-segment clearfix">
+  <h3 align="center" style="margin-bottom:5px;">
+    Быстрый заказ товара: 
+    <a href="/orders/fast/14514" style="color:red;">Заказать в 1 клик</a>  </h3>
+</div>
+
+
+        <div class="block-page-segment clearfix">
+          <h3> Описание AIRONE SN200MN-1R5GB-T4  </h3>
+
+
+          <p> AIRONE SN 200 – серия частотных преобразователей, предназначенных для управления трехфазными асинхронными электродвигателями. прибор имеет все функциональные возможности современного преобразователя частоты общего назначения. </p> 
+        </div>
+
+        <div class="block-page-segment clearfix">
+          <h3> Особенности AIRONE SN200MN-1R5GB-T4  </h3>
+          <ul class="osobennosti">
+            <li> Функция расчетов выполняется путем импульсного ввода.
+ </li> 
+<li> Встроенный PID может осуществлять процесс управления системой закрытого контура.
+ </li> 
+<li> Функция AVR обеспечивается стабильность выхода при колебаниях напряжения сети.
+ </li> 
+<li> Торможение постоянным током осуществляет скоростное стабильное прекращение работы.
+ </li> 
+<li> Компенсирует отклонения скорости вращения, вызванные увеличением нагрузки.
+ </li> 
+<li> Скачкообразная частота препятствует возникновению резонанса вслед за нагрузкой.
+<li> Функция опускания уравновешивает нагрузку нескольких двигателей с одинаковой нагрузкой.</li>
+<li>Контроль настройки времени может осуществлять достижение частотным трансформатором заданного времени, автоматическую остановку.</li>
+<li>Встроенное реле с виртуальной задержкой времени может осуществлять упрощенное логическое программирование функция многофункциональной выводной клеммы и
+сигнала клеммы ввода цифровой величины, логический результат может быть эквивалентен функции клеммы ввода цифровой величины, а также может выводиться с помощью многофункциональной выводной клеммы.</li>
+<li>2 встроенных таймера собирают входящий сигнал настройки времени и осуществляют вывод сигнала настройки времени. Можно использовать как отдельно, так и комплексно.</li>
+<li>Встроенный операционный модуль Встроен один 4-контурный операционный модуль. Может осуществлять упрощенные арифметические действия, оценку размеров, интегральные операции.</li>
+<li>Панель управления не имеет своего интерфейса связи Rs485, необходимо подключение карты расширения связи. Поддерживает стандартный протокол MODBUS-RTU (подключение карты расширения EM60-485.</li>
+<li>Кодировщик Может принимать только 1-канальный импульсный сигнал кодировщика (DI6).</li>
+<li>Двигатель синхронного типа.</li>
+<li>Заданная частота, выходной ток, выходное напряжение, входной сигнал, значение обратной связи, температура
+модуля, выходная частота, скорость синхронного вращения двигателя и др. С помощью кнопки «>>» циклично может отображаться максимум 32 сообщения.</li>
+<li>В рабочем состоянии при защите от неисправностей сохраняется 3 статистических сообщения о неисправностях. В
+каждом сообщении содержится информация о частоте во время сбоя, токе и напряжении на шины во время сбоя, состоянии вводных и выводных клемм во время сбоя и др.</li>
+<li>Защита от сверхтока, перенапряжения, неисправностей модуля, недостаточного напряжения, перегрева, перегрузки, защита от внешних сбоев, защита от неполадок EEPROM, защита заземления, защита от обрывов связи и др.</li>
+<li>Защита от блокировки вращения, сигнализация при перегрузке.</li>
+<li>Тип охлаждения – принудительный.</li>          </ul>
+        </div>
+
+
+
+
+
+
+        <div class="clearfix">
+                 <h3 style="margin-top:15px;"> Все модели серии </h3>
+         <table width="100%" cellspacing="0" class="catitem_table" cellpadding="0">
+          <tr>
+             <td style="white-space: nowrap;"> <b>Модель блока</b> </td> 
+             <!-- td> Описание </td -->
+              <td align="center"> <b>Мощность</b><br />кВт</td>
+              <td align="center"> <b>Электропитание</b><br />В</td>
+              <td align="center"> <b>Вес</b><br />кг</td>
+             <td width="60" align="center"> <b>Цена</b> <br />руб </td>
+             <td width="0" style="padding:0px;"></td>
+          </tr>
+
+          <tr id="sample0" params="|0|||||||" longdiv="">
+             <td style="white-space: nowrap; vertical-align:middle;"> 
+             <a href="/airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200/3228-14514.html"> SN200MN-1R5GB-T4 </a>
+             </td>
+
+             <!-- td>
+               <br />
+             </td -->
+
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     1,50               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     380 В, 3 Фазы               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     -
+               </td>
+
+             <td align="center" style="white-space: nowrap; vertical-align:middle;">
+                 9 947             </td>
+             <td align="center" style="white-space: nowrap; vertical-align:middle; padding:0px;" valign="bottom"> 
+             </td>
+          </tr>
+          <tr id="sample1" params="|0|||||||" longdiv="">
+             <td style="white-space: nowrap; vertical-align:middle;"> 
+             <a href="/airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200/3228-14515.html"> SN200MN-0R7GB-T4 </a>
+             </td>
+
+             <!-- td>
+               <br />
+             </td -->
+
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     0,75               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     380 В, 3 Фазы               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     -
+               </td>
+
+             <td align="center" style="white-space: nowrap; vertical-align:middle;">
+                 9 369             </td>
+             <td align="center" style="white-space: nowrap; vertical-align:middle; padding:0px;" valign="bottom"> 
+             </td>
+          </tr>
+          <tr id="sample2" params="|0|||||||" longdiv="">
+             <td style="white-space: nowrap; vertical-align:middle;"> 
+             <a href="/airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200/3228-14516.html"> SN200MN-2R2GB-T4 </a>
+             </td>
+
+             <!-- td>
+               <br />
+             </td -->
+
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     2,20               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     380 В, 3 Фазы               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     -
+               </td>
+
+             <td align="center" style="white-space: nowrap; vertical-align:middle;">
+                 10 757             </td>
+             <td align="center" style="white-space: nowrap; vertical-align:middle; padding:0px;" valign="bottom"> 
+             </td>
+          </tr>
+          <tr id="sample3" params="|0|||||||" longdiv="">
+             <td style="white-space: nowrap; vertical-align:middle;"> 
+             <a href="/airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200/3228-14517.html"> SN200MN-3R7GB-T4 </a>
+             </td>
+
+             <!-- td>
+               <br />
+             </td -->
+
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     3,70               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     380 В, 3 Фазы               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     -
+               </td>
+
+             <td align="center" style="white-space: nowrap; vertical-align:middle;">
+                 14 111             </td>
+             <td align="center" style="white-space: nowrap; vertical-align:middle; padding:0px;" valign="bottom"> 
+             </td>
+          </tr>
+          <tr id="sample4" params="|0|||||||" longdiv="">
+             <td style="white-space: nowrap; vertical-align:middle;"> 
+             <a href="/airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200/3228-14518.html"> SN200MN-5R5GB-T4 </a>
+             </td>
+
+             <!-- td>
+               <br />
+             </td -->
+
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     5,50               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     380 В, 3 Фазы               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     -
+               </td>
+
+             <td align="center" style="white-space: nowrap; vertical-align:middle;">
+                 19 895             </td>
+             <td align="center" style="white-space: nowrap; vertical-align:middle; padding:0px;" valign="bottom"> 
+             </td>
+          </tr>
+          <tr id="sample5" params="|0|||||||" longdiv="">
+             <td style="white-space: nowrap; vertical-align:middle;"> 
+             <a href="/airone/accessories/chastotnie_preobrazovateli/m4228-212-sn-200/3228-14519.html"> SN200MN-7R5GB-T4 </a>
+             </td>
+
+             <!-- td>
+               <br />
+             </td -->
+
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     7,50               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     380 В, 3 Фазы               </td>
+               <td align="center" valign="middle" style="vertical-align:middle;">
+                     -
+               </td>
+
+             <td align="center" style="white-space: nowrap; vertical-align:middle;">
+                 22 208             </td>
+             <td align="center" style="white-space: nowrap; vertical-align:middle; padding:0px;" valign="bottom"> 
+             </td>
+          </tr>
+        </table>
+
+     <!--
+     -->
+
+
+
+        </div>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <!--content end-->
+  </div>
+  <!--wrap end-->
+
+
+
+
+  <!--CF-->
+  <div id="clrf">&nbsp;</div>
+  <!--CF end-->
+</div>
+<!--layout end-->
+
+<!--footer-->
+<div id="footer" class="clearfix">
+  <div class="c clearfix">
+    <div class="contacts">
+      <div class="copy">&copy; 2020 Группа компаний &laquo;Пути Ветра&raquo;</div>
+        Телефон/факс: 8 (495) 647-85-11 <br />
+        E-mail: <a href="mailto:sales@putivetra.ru">sales@putivetra.ru</a> <br />
+      <!-- <a href="">Информация о сайте</a> -->
+
+<br />
+<!--LiveInternet counter--><script
+	type="text/javascript">
+	document.write("<a href='http://www.liveinternet.ru/click' "
+			+ "target=_blank><img src='//counter.yadro.ru/hit?t58.2;r"
+			+ escape(document.referrer)
+			+ ((typeof (screen) == "undefined") ? "" : ";s"
+					+ screen.width
+					+ "*"
+					+ screen.height
+					+ "*"
+					+ (screen.colorDepth ? screen.colorDepth
+							: screen.pixelDepth)) + ";u" + escape(document.URL)
+			+ ";" + Math.random() + "' alt='' title='LiveInternet' "
+			+ "border='0' width='88' height='31'><\/a>")
+	//-->
+</script><!--/LiveInternet-->
+
+
+<!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter20865616 = new Ya.Metrika2({ id:20865616, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ecommerce:"dataLayer" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/tag.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks2"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/20865616" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" > (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)}) (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym"); ym(56022940, "init", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true, ecommerce:"dataLayer" }); </script> 
+<!-- /Yandex.Metrika counter -->
+
+
+
+<noindex>
+<a href="http://sitexpert.org"><img src="http://sitexpert.org/img/sitexpert.gif" alt="sitexpert.org" width="10" height="4"></a>
+</noindex>
+
+
+<!-- BEGIN cloudim code {literal} -->
+<script type="text/javascript" charset="utf-8">document.write(unescape("%3Cdiv id='cloudim_widget'%3E%3Cscript src='//static.cloudim.ru/js/chat.js' type='text/javascript'%3E%3C/script%3E%3C/div%3E"));</script> <div id="cloudim_cr" style="position:absolute; left:-9999px;"><a target="_blank" href="http://cloudim.ru/">Cloudim</a> - онлайн консультант для сайта бесплатно.</div>
+<script type="text/javascript" charset="utf-8">
+Cloudim.Chat.init({uid:14817});
+</script>
+<!-- {/literal} END cloudim code -->
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-54598511-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+      </div>
+    <div class="stats"> <!-- <span class="stats_title">Статистика сайта:</span><br />
+      Производителей: 30<br />
+      Брендов и ТМ: 35<br />
+      Видов оборудования: 500<br />
+      Номиналов техники: 2500<br />
+      <a href="">вся статистика</a> -->
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </div>
+
+
+    <ul class="links">
+      <li><a href="/vrv.html">Мультизональные системы VRV</a></li>
+      <li><a href="/kondicionirovanie-zagorodnyi-dom.html">VRF-системы</a></li>
+      <li><a href="/montaj.html">Монтаж кондиционеров</a></li>
+      <li><a href="/kondicionirovanie-servernaya.html">Кондиционеры для серверов</a></li>
+      <li><a href="/arenda_kondicionerov-p99.html">Аренда кондиционеров</a></li>
+      <li><a href="/dozapravka-kondicionerov.html">Заправка кондиционера</a></li>
+    </ul>
+    <ul class="links last">
+      <li><a href="/daikin/promishlennye-kondicionery/promushlennye-fankoily.html">Daikin фанкойл</a></li>
+      <li><a href="/servis-split-sistem.html">Обслуживание кондиционирования</a></li>
+      <li><a href="/montaj_fankoilov.html">Монтаж фанкойлов</a></li>
+      <li><a href="/servisnoe-obslujivanie.html">Обслуживание сплит-систем</a></li>
+      <li><a href="/fujitsu.html">VRF Fujitsu</a></li>
+      <li><a href="/multizonlnye-vrv-vrf-sistemy.html">Системы VRV</a></li>
+    </ul>
+
+
+
+
+  </div>
+</div>
+<!--footer end-->
+
+</body>
+</html>
+
